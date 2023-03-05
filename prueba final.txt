@@ -1,0 +1,95 @@
+inicio
+entero a,b;
+a = leer();
+b = leer();
+mientras(a>=b){
+	b = b + 1;
+	imprimir("Gracias a Dios voy bien");
+fin_mientras
+imprimir("Sali del ciclo mientras");
+fin
+
+inicio
+entero a,b,c,d,e,f;
+a = leer();
+b = leer();
+c = leer();
+d = leer();
+e = leer();
+f = leer();
+si(a>b && c<d && e==f){
+	imprimir("1. Gracias a Dios voy bien");
+}
+sino{
+	imprimir("2. Gracias a Dios voy bien");
+}
+imprimir("Hola a todos");
+fin
+
+
+inicio
+real a = 0.0, b;
+entero cont = 0;
+mientras(cont < 5){
+	b = leer();
+	a = a + b;
+	cont = cont + 1;
+}
+imprimir("La suma de los numeros es: "+a);
+fin
+
+inicio
+real b;
+entero cont = 0;
+mientras(cont < 3){
+	b = leer();
+	#cont = cont + 1;
+	si(b<0){
+	        imprimir("Es negativo");
+	}
+	sino{
+	         si(b==0){
+	                   imprimir("Es cero");
+	         }
+	         sino{
+	                  imprimir("Es positivo");
+	         }
+	}
+	cont = cont + 1;
+	imprimir("El valor de cont es: "+cont);
+fin_mientras
+fin
+
+inicio
+entero n, aux;
+n = leer();
+aux = n;
+mientras(aux>0){
+     aux = aux -2;
+fin_mientras
+si(aux==0){
+     imprimir("El numero "+n+" es par");
+}
+sino{
+     imprimir("El numero "+n+" es impar");
+}
+fin
+
+inicio
+caracter a, b;
+cadena s;
+a = leer();
+b = leer();
+s = a + b;
+imprimir("La cadena es: "+s);
+fin
+
+inicio
+cadena a = "hola", b="Hola";
+si(a < b){
+       imprimir("La cadena a es menor que la cadena b");
+}
+sino{
+       imprimir("La cadena a es mayor que la cadena b");
+}
+fin

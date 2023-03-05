@@ -1,0 +1,6 @@
+class/*.class
+class/*.png
+class/*.jpg
+class/*.jpeg
+class/*.gif
+bin/*.jar
